@@ -1,0 +1,39 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Navadhiti Assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1114.0",
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csvjson": "^5.1.0",
+    "currency-symbol-map": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "json2csv": "^5.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.19",
+    "redis": "^3.1.2",
+    "shortid": "^2.2.16",
+    "util": "^0.12.4",
+    "utils": "^0.3.1",
+    "valid-url": "^1.0.9",
+    "validate": "^5.2.0"
+  }
+}
